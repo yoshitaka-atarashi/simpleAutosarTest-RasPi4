@@ -1,0 +1,48 @@
+# Build outputs
+build/output/
+*.o
+*.elf
+*.img
+*.bin
+*.hex
+*.map
+*.lst
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Trampoline generated
+goil/
+*.arxml
+tpl_*.c
+tpl_*.h
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+trampoline
+firmware
