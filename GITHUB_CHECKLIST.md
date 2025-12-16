@@ -35,11 +35,11 @@ Complete checklist before publishing to GitHub.
 
 ## 🧪 Testing
 
-- [ ] Build succeeds on Windows
+- [x] Build succeeds on Windows
 - [ ] Build succeeds on Linux
-- [ ] HDMI output mode tested
+- [x] HDMI output mode tested
 - [ ] UART mode tested
-- [ ] SD card writer tool tested
+- [x] SD card writer tool tested
 - [ ] Serial monitor tool tested
 
 ## 📦 Files to Include
