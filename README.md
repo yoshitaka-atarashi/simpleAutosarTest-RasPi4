@@ -8,7 +8,7 @@
 
 Bare-metal implementation of [Trampoline RTOS](https://github.com/TrampolineRTOS/trampoline) (AUTOSAR OS compliant) on Raspberry Pi 4, featuring HDMI display output and UART serial communication.
 
-![Demo](docs/images/demo-screenshot.png)
+![Demo](snapshot.png)
 *Screenshot: Trampoline OS running on Raspberry Pi 4 with HDMI output*
 
 ## ✨ Features
