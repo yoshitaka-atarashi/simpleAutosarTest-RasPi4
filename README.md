@@ -122,8 +122,9 @@ Expected output:
 
 ## 📁 Project Structure
 
-
-##  README.md                      # This file
+```
+AutosarTest3/
+├── README.md                      # This file
 ├── QUICKSTART.md                  # 5-minute setup guide
 ├── LICENSE                        # MIT License
 ├── .gitignore                     # Git ignore rules
@@ -138,7 +139,21 @@ Expected output:
 │   ├── build.bat                  # Windows build script
 │   ├── build.sh                   # Linux build script
 │   ├── link.ld                    # Linker script
-│  🎮 Usage
+│   └── output/                    # Build outputs (kernel.img)
+├── docs/                          # Documentation
+│   ├── setup_guide.md             # Detailed setup instructions
+│   ├── architecture.md            # System architecture
+│   └── hdmi_output.md             # HDMI implementation details
+├── pc_tools/                      # PC utilities
+│   ├── serial_monitor.py          # Serial communication tool
+│   ├── sd_writer.py               # Automated SD card writer
+│   └── requirements.txt           # Python dependencies
+└── firmware/                      # Raspberry Pi firmware
+    ├── README.md                  # Firmware acquisition guide
+    └── boot/                      # Bootloader files (not included)
+```
+
+## 🎮 Usage
 
 ### Output Modes
 
